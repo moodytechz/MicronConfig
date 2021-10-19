@@ -1,0 +1,5 @@
+git -C /home/pi/klipper_config/ add .
+
+git -C /home/pi/klipper_config/ commit -m "auto backup"
+
+git -C /home/pi/klipper_config/ push --force origin master
